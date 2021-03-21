@@ -1,6 +1,5 @@
 # Aprendizados sobre Git
 ###### Estudos feitos no curso [Git e Github Essencial para o Desenvolvedor](https://www.udemy.com/course/curso-de-git-e-github-essencial/)
-> Se tiver algo errado aqui, abra uma issue que vou corrigir :wink:
 
 <details><summary><strong>Sincronizando repo local com o remoto</strong></summary>
 
