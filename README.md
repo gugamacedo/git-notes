@@ -19,9 +19,9 @@
   
   *(só rode o comando abaixo se estiver em máquina pessoal)*
   
-  **`git config credential.helper store`** pra guardar as credenciais, senão vai ter que colocar login e senha em todo push. *
+  **`git config credential.helper store`** pra guardar as credenciais, senão vai ter que colocar login e senha em todo push.
     
-- Sempre que mudar algo como username ou nome do repo, entre na pasta .git e faça as alterações no arquivo config, de cada repo.
+  *(sempre que mudar algo como username ou nome do repo, entre na pasta .git e faça as alterações no arquivo config, de cada repo)*
 
 </details>
 
