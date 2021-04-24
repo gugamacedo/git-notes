@@ -8,16 +8,18 @@
   **`cd Repo`**  
   **`git config user.name ""`**  
   **`git config user.email ""`**  
-  **`touch <algum arquivo>`**  
-  **`git add <o arquivo criado>`**  
-  **`git commit -m ""`**  
+  **Crie algum arquivo ou altere um existente**  
+  **`git add .`**  
+  **`git commit -m "Update"`**  
   **`git push -u origin main`**  
-
-  - Então vai pedir username e senha ou **token** se você tem 2FA
+  
+  *(o processo abaixo tem que ser feito duas vezes para não precisar mais)*
+  
+  **Pedirá username e password (ou token se você tem 2FA)**
   
   *(só rode o comando abaixo se estiver em máquina pessoal)*
   
-  **`git config credential.helper store`** pra guardar as credenciais, senão vai ter que colocar login e senha em todo push 
+  **`git config credential.helper store`** pra guardar as credenciais, senão vai ter que colocar login e senha em todo push. *
     
 - Sempre que mudar algo como username ou nome do repo, entre na pasta .git e faça as alterações no arquivo config, de cada repo.
 
