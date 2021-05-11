@@ -202,3 +202,60 @@ Para usar facilmente com frequência.
 Permite o compartilhamento de pequenos trechos de código. Há também quem use o Gist para receber feedbacks daquele código específico. Também pode publicar parte do seu código e usar o plugin do Gist para mostrar seu código em sites, fóruns e outros locais. Para isso, só precisa publicar o código (depois de logar no GitHub) e clicar em “Show Embed” e ele lhe mostrará um código javascript para colar onde quiser. Onde você colar o javascript vai aparecer uma caixinha bonitinha com o trecho de código e um link para o seu Gist. Alterando seu Gist, todos os lugares onde você publicou seu código serão alterados ao mesmo tempo.
 
 </details>
+
+--------------
+
+<details><summary>Instalação do NodeJS</summary>
+
+- Primeiro, baixe o NVM usando wget. Execute: `sudo apt install wget`
+- Em seguida utilize o comando: `wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash`
+- O próximo passo é permitir que o NVM seja utilizado do seu perfil de usuário bash com o comando: `source ~/.profile`
+- Agora você pode usar o NVM para mostrar todas as versões do Node.js disponíveis para ser instaladas: `nvm ls-remote`
+- Fique à vontade para escolher a versão que preferir. Por motivos de estabilidade, escola a versão LTS mais atual. Execute: `nvm install {versao}`
+- Você pode verificar se a instalação ocorreu com sucesso checando a versão do Node.js: `node -v` e `npm -v`
+  - Se deseja desinstalar uma versão específica: `nvm uninstall {versao}`
+  - Mas se você deseja  desinstalar o NodeJS, primeiro é preciso desativar a aplicação: `nvm deactivate`
+    - Em seguida desinstale o Node.js: `nvm uninstall {versao}`
+
+</details>
+
+<details><summary>Instalação fonte FiraCode</summary>
+
+- No terminal: ``sudo apt update && sudo apt install fonts-firacode``
+- No Vscode: `ctrl + p` digite e abra *> Preferences: Open Settings (JSON)*
+  - Dentro do arquivo insira:
+  ```json
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true
+  ```
+
+</details>
+
+<details><summary>Configs VSCode</summary>
+
+```json
+{
+    "workbench.colorTheme": "GitHub Dark Default",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true,
+    "window.zoomLevel": 1,
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "bracket-pair-colorizer-2.colorMode": "Independent",
+    "bracket-pair-colorizer-2.colors": [
+        "#ad8bd3",
+        "#ffa657",
+        "#e86a5b"
+    ],
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.tabSize": 2,
+    "editor.minimap.enabled": false
+}
+```
+
+</details>
