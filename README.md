@@ -236,25 +236,28 @@ Permite o compartilhamento de pequenos trechos de código. Há também quem use 
 
 ```json
 {
-    "workbench.colorTheme": "GitHub Dark Default",
-    "workbench.iconTheme": "material-icon-theme",
-    "editor.fontFamily": "Fira Code",
-    "editor.fontSize": 14,
-    "editor.fontLigatures": true,
-    "window.zoomLevel": 1,
-    "prettier.semi": false,
-    "prettier.singleQuote": true,
-    "bracket-pair-colorizer-2.colorMode": "Independent",
-    "bracket-pair-colorizer-2.colors": [
-        "#ad8bd3",
-        "#ffa657",
-        "#e86a5b"
-    ],
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "editor.tabSize": 2,
-    "editor.minimap.enabled": false
+  "workbench.iconTheme": "ayu",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "window.zoomLevel": 1,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "bracket-pair-colorizer-2.colorMode": "Independent",
+  "bracket-pair-colorizer-2.colors": ["#24a4e6", "#e6a939", "#9fd94a"],
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "workbench.startupEditor": "none",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Ayu Dark",
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
 ```
 
